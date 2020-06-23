@@ -72,13 +72,13 @@
  * forces a minimum config file revision. Otherwise Marlin will not build.
  */
 #define HEXIFY(H) _CAT(0x,H)
-#if !defined(CONFIGURATION_H_VERSION) || HEXIFY(CONFIGURATION_H_VERSION) < HEXIFY(REQUIRED_CONFIGURATION_H_VERSION)
-  #error "You are using an old Configuration.h file, update it before building Marlin."
-#endif
+//#if !defined(CONFIGURATION_H_VERSION) || HEXIFY(CONFIGURATION_H_VERSION) < HEXIFY(REQUIRED_CONFIGURATION_H_VERSION)
+  //#error "You are using an old Configuration.h file, update it before building Marlin."
+//#endif
 
-#if !defined(CONFIGURATION_ADV_H_VERSION) || HEXIFY(CONFIGURATION_ADV_H_VERSION) < HEXIFY(REQUIRED_CONFIGURATION_ADV_H_VERSION)
-  #error "You are using an old Configuration_adv.h file, update it before building Marlin."
-#endif
+//#if !defined(CONFIGURATION_ADV_H_VERSION) || HEXIFY(CONFIGURATION_ADV_H_VERSION) < HEXIFY(REQUIRED_CONFIGURATION_ADV_H_VERSION)
+  //#error "You are using an old Configuration_adv.h file, update it before building Marlin."
+//#endif
 #undef HEXIFY
 
 /**
