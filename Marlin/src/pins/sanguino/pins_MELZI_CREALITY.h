@@ -61,6 +61,7 @@
 #undef LCD_PINS_D5
 #undef LCD_PINS_D6
 #undef LCD_PINS_D7
+#undef BEEPER_PIN
 #define FIL_RUNOUT_PIN                        29     // Uses Beeper/LED Pin Pulled to GND
 
 #define LCD_SDSS                             31   // Smart Controller SD card reader (rather than the Melzi)
@@ -70,7 +71,7 @@
 
 #if ENABLED(BLTOUCH)
   #define SERVO0_PIN                         27
-  #undef BEEPER_PIN
+
 #endif
 
 #if ENABLED(MINIPANEL)
