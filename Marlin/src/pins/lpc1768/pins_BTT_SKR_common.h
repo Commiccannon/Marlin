@@ -30,7 +30,7 @@
 #endif
 
 // Ignore temp readings during development.
-//#define BOGUS_TEMPERATURE_GRACE_PERIOD 2000
+//#define BOGUS_TEMPERATURE_GRACE_PERIOD    2000
 
 //
 // Steppers
@@ -93,7 +93,8 @@
 // LCD / Controller
 //
 #if HAS_SPI_LCD
-  #define BEEPER_PIN                       P1_30  // (37) not 5V tolerant
+//  #define BEEPER_PIN                     P1_30   // (37) not 5V tolerant
+// Disabled Beeper
 #endif
 
 //
