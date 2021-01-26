@@ -60,8 +60,8 @@
 #define Y_DIAG_PIN                          PE12  // Y-
 #define Z_DIAG_PIN                          PG8   // Z-
 #define E0_DIAG_PIN                         PE15  // E0
-#define E1_DIAG_PIN                         PE10  // E1
-#define E2_DIAG_PIN                         PG5   // E2
+#define X2_DIAG_PIN                         PE10  // E1
+#define Y2_DIAG_PIN                         PG5   // E2
 
 //
 // Limit Switches
@@ -153,18 +153,18 @@
   #define E0_CS_PIN                         PB3
 #endif
 
-#define E1_STEP_PIN                         PD15
-#define E1_DIR_PIN                          PE7
-#define E1_ENABLE_PIN                       PA3
-#ifndef E1_CS_PIN
-  #define E1_CS_PIN                         PG15
+#define X2_STEP_PIN                         PD15
+#define X2_DIR_PIN                          PE7
+#define X2_ENABLE_PIN                       PA3
+#ifndef X2_CS_PIN
+  #define X2_CS_PIN                         PG15
 #endif
 
-#define E2_STEP_PIN                         PD13
-#define E2_DIR_PIN                          PG9
-#define E2_ENABLE_PIN                       PF0
-#ifndef E2_CS_PIN
-  #define E2_CS_PIN                         PG12
+#define Y2_STEP_PIN                         PD13
+#define Y2_DIR_PIN                          PG9
+#define Y2_ENABLE_PIN                       PF0
+#ifndef Y2_CS_PIN
+  #define Y2_CS_PIN                         PG12
 #endif
 
 //
